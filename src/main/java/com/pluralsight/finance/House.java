@@ -12,7 +12,7 @@ public class House extends FixedAsset{
         this.squareFeet = squareFeet;
         this.bedrooms = bedrooms;
     }
-
+    //gettors and setters
     public int getYearBuilt() {
         return yearBuilt;
     }
