@@ -1,15 +1,14 @@
 package com.pluralsight.finance;
 
-public class BankAccount extends FixedAsset {
+public class BankAccount implements Valuable {
     //attrubutes for the bankAccount
     private String name;
     private String accountNumber;
     private double balance;
 
     //constructor for the BankAccount
-    public BankAccount(String name, double marketValue, String name1, String accountNumber, double balance) {
-        super(name, marketValue);
-        this.name = name1;
+    public BankAccount(String name, String accountNumber, double balance) {
+        this.name = name;
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
