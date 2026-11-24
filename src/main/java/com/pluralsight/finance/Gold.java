@@ -8,7 +8,7 @@ public class Gold extends FixedAsset {
         super(name, marketValue);
         this.weight = weight;
     }
-
+    //gettor and setter
     public double getWeight() {
         return weight;
     }
