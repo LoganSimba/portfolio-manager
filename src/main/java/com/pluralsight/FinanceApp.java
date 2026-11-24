@@ -14,5 +14,7 @@ public class FinanceApp {
         //account2.deposit(100);
         account3.getValue();
 
+        System.out.println(account3.getValue());
+
     }
 }

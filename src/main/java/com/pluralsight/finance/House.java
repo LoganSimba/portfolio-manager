@@ -43,7 +43,7 @@ public class House extends FixedAsset{
         value += bedrooms * 10000;          //add $10,000 per every bedroom
 
         int age = java.time.LocalDate.now().getYear() - yearBuilt;
-        value -= age * 1000;                //-$1,000 for each year of age
+        value -= age * 1000;                //-1,000 for each year of age
 
         return value;//return the value
     }
